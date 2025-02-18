@@ -1,0 +1,55 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color:cornflowerblue
+}
+header img {
+    width: 40%;
+    border: 3px solid #C5D3E8;
+    border-radius: 25%;
+}
+header {
+    width: 95%;
+    border: 1px solid #B59F78;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+} 
+p {
+    color: black;
+    font-style: italic;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 6px 25px;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    color:aliceblue
+}
+button-hover{
+    transform: scale(1,5);
+    transition:all .3s 
+    ease-in-out;
+}
+#products {
+    width: 95%;
+    margin: 40px, auto;
+    text-align: center;
+}
+#products h2 {
+    color: 'cari di color hunt';
+}
+.products-card {
+    padding: 20px;
+    border: 1px, dashed;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 350px;
+    border: 1px, solid, 'cari di color hunt';
+}
